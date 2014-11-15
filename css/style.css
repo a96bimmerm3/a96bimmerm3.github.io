@@ -1,0 +1,139 @@
+html {
+  font-size: .75em;
+  font-family: sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-family: brush script MT;
+  text-align: center;
+  padding-bottom: 0em;
+  margin-bottom: .3em;
+}
+
+h1 {
+    -webkit-box-reflect: below -5px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+}
+
+h1 {
+    color: red;
+    -webkit-transition: color linear 2s;
+    -moz-transition: color linear 2s;
+    -o-transition: color linear 2s;
+    transition: color linear 2s;
+}
+h1:hover {
+    color: blue;
+}
+
+address {
+  font-family: arial;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: .75em;
+  margin-top: 1.75em;
+
+}
+nav ul li{
+  font-size: 1.75em;
+  position: relative;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  list-style-type: none;
+  clear: left;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-right: .5em;
+  padding-left: .5em;
+  background-image: -webkit-gradient(radial, center center, 10, center center, 70, from(lightgrey), to(grey));
+
+}
+nav ul li a:hover {
+  color: red;
+  -webkit-transition:color 0.4s linear;
+  -moz-transition:color 0.4s linear;
+  -o-transition:color 0.4s linear;
+  transition:color 0.4s linear;
+
+}
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+
+}
+
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  color: red;
+
+  margin-left: 2em;
+}
+
+h4 {
+  font-size: 1.25em;
+
+}
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+main{
+  margin: 2em;
+}
+
+#education {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 1em;
+  width: 25%;
+  float: left;
+  clear: left;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+
+}
+#experience {
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 25%;
+  margin: 1em;
+  float: left;
+  clear: right;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#skills {
+padding-left: 1em;
+padding-right: 1em;
+position: relative;
+width: 25%;
+margin: 1em;
+clear: right;
+float: left;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+}
+
+footer {
+  float: none;
+  clear: both;
+  position: relative;
+  text-align: center;
+}
